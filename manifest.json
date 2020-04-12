@@ -1,0 +1,16 @@
+{
+	"name": "Zone Annuaire ratings",
+	"author": "Ismaïl NGUYEN",
+	"manifest_version": 2,
+	"version": "1.0",
+	"description": "Add ratings on movie thumbnails",
+	"background": {
+		"scripts": ["jquery-3.4.1.min.js", "add-ratings.js"]
+	},
+	"content_scripts": [
+               {
+                  "matches": ["*://*.zone-annuaire.com/*"],
+                  "js": ["jquery-3.4.1.min.js", "add-ratings.js"]
+                }
+        ]
+}
