@@ -1,4 +1,4 @@
-# zone-annuaire-ratings
+# chrome-zone-annuaire-ratings
 
 Google Chrome extension to add movie ratings on thumbnails
 
